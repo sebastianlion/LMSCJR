@@ -11,7 +11,10 @@
   "name": "casa",
   "architecture": "avr",
   "version": "0.1.0",
-  "category": "Contributed"  
+  "category": "Contributed",
+  "boards": [
+    {"name": "casa"}
+  ]
 }
 ],
 "tools": [],
