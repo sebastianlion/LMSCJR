@@ -1,0 +1,27 @@
+menu.cpu=Processor
+
+##############################################################
+
+casa.name=Tarjeta Casa
+
+casa.upload.tool=avrdude
+casa.upload.protocol=arduino
+casa.upload.maximum_size=32256
+casa.upload.maximum_data_size=2048
+casa.upload.speed=115200
+
+casa.bootloader.tool=avrdude
+casa.bootloader.low_fuses=0xFF
+casa.bootloader.high_fuses=0xDE
+casa.bootloader.extended_fuses=0x05
+casa.bootloader.unlock_bits=0x3F
+casa.bootloader.lock_bits=0x0F
+casa.bootloader.file=optiboot/optiboot_atmega328.hex
+
+casa.build.mcu=atmega328p
+casa.build.f_cpu=16000000L
+casa.build.board=AVR_UNO
+casa.build.core=arduino
+casa.build.variant=standard
+
+##############################################################
