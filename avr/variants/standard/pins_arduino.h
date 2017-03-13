@@ -171,14 +171,14 @@ const uint8_t PROGMEM digital_pin_to_port_PGM[] = {
 };
 
 const uint8_t PROGMEM digital_pin_to_bit_mask_PGM[] = {
-	_BV(0), /* 0, port D */
-	_BV(1),
+	_BV(1), /* 0, port D */
 	_BV(2),
 	_BV(3),
 	_BV(4),
 	_BV(5),
 	_BV(6),
 	_BV(7),
+	_BV(0),
 	_BV(0), /* 8, port B */
 	_BV(1),
 	_BV(2),
