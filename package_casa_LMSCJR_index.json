@@ -19,6 +19,19 @@
   "boards": [
     {"name": "casa"}
   ]
+},
+{
+  "name": "casa",
+  "architecture": "avr",
+  "version": "0.2.0",
+  "category": "Contributed",
+  "url": "https://github.com/steven27k/LMSCJR/archive/v0.2.0.zip ",
+  "archiveFileName": "LMSCJR-0.2.0.zip",
+  "checksum":"SHA-256:a3f63d3f84b7e19c5fc2b5b739161a213f41805e4c2f2b2ac9aad572de92716f",
+  "size": "192389",
+  "boards": [
+    {"name": "casa"}
+  ]
 }
 ],
 "tools": []
